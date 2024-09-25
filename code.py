@@ -45,7 +45,7 @@ def execute_command():
     if audio_input_mode:
         user_input = takeCommand().lower()  # Use the recognized audio input
     else:
-        user_input = entry.get().lower()  # Use the text input from the Entry widget
+        user_input = entry.get().lower()  
 
     if user_input:
         if 'wikipedia' in user_input:
