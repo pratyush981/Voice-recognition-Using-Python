@@ -28,7 +28,7 @@ def takeCommand():
         print("Recognizing...")
         query = r.recognize_google(audio, language='en-in')
         print(f"User-said: {query}\n")
-        update_input(query)  # Update the input_label with the spoken command
+        update_input(query)  
         return query 
     except Exception as e:
         print("Tell something valid")
