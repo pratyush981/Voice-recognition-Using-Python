@@ -15,7 +15,7 @@ def speak(audio):
     engine.runAndWait()
 
 def wishMe():
-    speak("Hello, my name is paa, how may I help you?")
+    speak("Hello, my name is PAA, how may I help you?")
 
 def takeCommand():
     r = sr.Recognizer()
@@ -29,7 +29,7 @@ def takeCommand():
         query = r.recognize_google(audio, language='en-in')
         print(f"User-said: {query}\n")
         update_input(query)  # Update the input_label with the spoken command
-        return query  # Return the recognized query
+        return query 
     except Exception as e:
         print("Tell something valid")
         update_input("None")
