@@ -78,7 +78,7 @@ def execute_command():
             # Call your calculator function here
             pass
         elif 'camera' in user_input or 'take photo' in user_input:
-            # Call your camera function here
+            # Call your camera function here 
             pass
         elif 'what all' in user_input:
             speak('I can tell you results from Wikipedia, open a few important apps and websites')
