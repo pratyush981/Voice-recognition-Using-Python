@@ -5,7 +5,7 @@ import wikipedia
 import webbrowser
 import tkinter as tk
 from tkinter import Entry, Button, Label, Radiobutton, StringVar
- 
+  
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
