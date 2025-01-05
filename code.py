@@ -3,7 +3,7 @@ import datetime
 import speech_recognition as sr
 import wikipedia
 import webbrowser
-import tkinter as tk
+import tkinter as tk 
 from tkinter import Entry, Button, Label, Radiobutton, StringVar
 
 engine = pyttsx3.init('sapi5')
